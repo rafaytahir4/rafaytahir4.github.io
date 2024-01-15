@@ -1,0 +1,1312 @@
+*{
+    box-sizing: border-box;
+    
+   
+}
+
+::selection{
+    background-color: #062422;
+    color: #F7B801;
+}
+
+
+
+body{
+    background-color: rgb(251, 245, 237);
+    overflow-x: hidden;
+    
+}
+
+#carouselExampleSlidesOnly{
+    margin-top: 0px;
+}
+
+
+
+.counter{
+    margin-right: 20px;
+    color: #F7B801;
+    margin-top: -13px;
+}
+
+.counter span{
+    color: #F7B801;
+    font-size: 30px;
+    font-family: "Berlin Sans FB";
+} 
+
+.navbar {
+    background-color: #062422;
+    padding: 5px;
+
+}
+
+.navbar-brand{
+    margin-left: 20px;
+}
+
+.navbar-brand img{
+    margin-top: 7px;
+    margin-left: 7px;
+    width: 85%;
+    height: 55px;
+}
+
+.navbar-brand h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #F7B801;
+    font-size: 15px;
+    padding-left: 7px;
+}
+
+
+  .nav-link {
+
+    display: inline;
+}
+
+  .nav-item{
+    padding-left: 15px;
+    padding-top: 20px;
+
+}
+
+#navlinks{
+    color: #F7B801;
+    font-weight: 500;
+}
+
+#navlinks:hover{
+    font-weight: bold;
+}
+
+
+  .counter {
+
+    /* margin-left: 15px; */
+    display: inline-block;
+  }
+
+
+  .content {
+    padding: 20px;
+  }
+
+
+.down-bar{
+    /* width: 100%;
+    height: auto; */
+    background-color: #F7B801;
+}
+
+
+
+#slogan{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#box{
+    background-color: #062422;
+    color: #F7B801;
+
+}
+
+
+#items{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 85px;
+   
+  
+}
+
+#items a{
+    color: #F7B801; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px; 
+    border-radius: 0;
+    transition: all 0.2s ease-out; 
+    text-decoration: none;
+}
+
+@media(max-width:768px){
+    #items{
+        column-gap: 0;
+        justify-content: start;
+    }
+    
+    #items a{
+        width: 50%;
+    }
+}
+
+  
+  #items a:hover {
+    color: #fff; 
+    background-color: #F7B801;
+    /* padding: 10px; */
+    border-radius: 5px; 
+}
+
+
+
+#about{
+    background-color: #062422;
+    width: 100%;
+ 
+    overflow: hidden;
+}
+
+#heading{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#heading h6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color:#F7B801;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+#heading h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin-top: -150px;
+    letter-spacing: 1px;
+}
+
+.section{
+    padding: 80px;
+    text-align: center;
+}
+
+.left{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.right{
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.right span{
+    color: #F7B801;
+}
+
+.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+
+
+
+.image-1{
+    height: 350px;
+    object-fit: cover;
+}
+
+#description{
+    color: white;
+   
+}
+
+#description h4{
+
+    color: #F7B801;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#description p{
+    text-align: left;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mt-6{
+    margin-top: 100px;
+}
+
+#description-2{
+
+    color: white;
+    text-align: left;
+   
+}
+
+#description-2 h4{
+    color: #F7B801;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#description-2 p{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-2{
+    height: 350px;
+    object-fit: cover;
+}
+
+.product-card{
+    color: #F7B801;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.product-card p{
+    margin-top: 20px;
+    font-family: 'Comic Sans MS';
+    font-size: 16px;
+    color: white;
+}
+
+.product-card h5{
+    font-family: "DomBold BT";
+    font-size: 35px;
+    color: #F7B801;
+}
+
+
+
+
+
+
+.maintxt{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.maintxt img{
+    filter: brightness(35%);
+    width: 100%;
+    height: 250px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    box-shadow: 2px 10px 15px rgba(0, 0, 0, 0.669);
+    position: absolute;
+    object-fit: cover;
+}
+
+
+.maintxt h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    filter: brightness(80%);
+    font-family: "French Script MT";
+    font-size: 150px;
+}
+
+.bottom-2{
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.show-5{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.c-1{
+    margin-top: 90px;
+}
+
+.c-2{
+    margin-top: 90px;
+}
+
+.c-3{
+    margin-top: 90px;
+}
+
+.p-1{
+    margin-top: 90px;
+}
+
+.p-2{
+    margin-top: 90px;
+}
+
+.bnc-1{
+    margin-top: 90px;
+}
+
+.bnc-2{
+    margin-top: 90px;
+}
+
+.pie-1{
+    margin-top: 90px;
+}
+
+.pie-2{
+    margin-top: 90PX;
+}
+
+.cookie-1{
+    margin-top: 90px;
+}
+
+.cookie-2{
+    margin-top: 90px;
+}
+
+.cookie-3{
+    margin-top: 90px;
+}
+
+.mer-1{
+    margin-top: 90px;
+}
+
+.mer-2{
+    margin-top: 90px;
+}
+
+.eo-1{
+    margin-top: 90px;
+}
+
+.eo-2{
+    margin-top: 90px;
+}
+
+.eo-3{
+    margin-top: 90px;
+}
+
+.eo-4{
+    margin-top: 90px;
+}
+
+.eo-5{
+    margin-top: 90px;
+}
+
+.eo-sub-head-1{
+    margin-top: 110px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.eo-sub-head-2{
+    margin-top: 110px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.eo-sub-head-3{
+    margin-top: 110px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.card-img-top{
+    border-top-right-radius: 28px;
+    border-top-left-radius: 28px;
+    cursor: pointer;
+}
+.card-img-top:hover{
+    filter: brightness(45%);
+}
+
+.card{
+
+    border-radius: 30px;
+}
+
+.card:hover{
+    border: 2px solid #062422;
+    border-radius: 30px;
+}
+
+.card-title{
+    text-align: center;
+    color: #062422;
+    font-family: "Gabriola";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.card-text{
+    text-align: center;
+    font-family: "Franklin Gothic Book";
+    color: #062422;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.input-group{
+    margin-top: 80px;
+}
+
+#searchInput{
+    background-color: #062422;
+    color: #F7B801;
+    padding: 10px;
+    border-radius: 50px;
+    padding-left: 20px;
+    border-style: hidden;
+    
+}
+
+@media(max-width:768px){
+    .search-bar{
+        width: 60%;
+    }
+}
+
+#searchInput-1{
+    background-color: #062422;
+    color: #F7B801;
+    padding: 10px;
+    border-radius: 50px;
+    padding-left: 20px;
+    border-style: hidden;
+    
+}
+
+#searchInput-2{
+    background-color: #062422;
+    color: #F7B801;
+    padding: 10px;
+    border-radius: 50px;
+    padding-left: 20px;
+    border-style: hidden;
+    
+}
+
+#searchInput-3{
+    background-color: #062422;
+    color: #F7B801;
+    padding: 10px;
+    border-radius: 50px;
+    padding-left: 20px;
+    border-style: hidden;
+    
+}
+
+#searchInput-4{
+    background-color: #062422;
+    color: #F7B801;
+    padding: 10px;
+    border-radius: 50px;
+    padding-left: 20px;
+    border-style: hidden;
+    
+}
+
+.search-bar ::placeholder{
+    color: #F7B801;
+}
+
+.btn-primary{
+    width: 100%;
+    border-radius: 50px;
+    background-color: #062422;
+    color: #F7B801;
+    font-family: "Futura Md BT";
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #062422;
+    color: #F7B801;
+}
+
+.btn-secondary{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #F7B801;
+    color: #062422;
+    font-family: "Futura Md BT";
+    cursor: pointer;
+    border: 2px solid #F7B801;
+}
+
+.btn-secondary:hover{
+    background-color: #F7B801;
+    color: #062422;
+    border: 2px solid #F7B801;
+}
+
+@media(max-width:768px){
+    .card{
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.maintxt-2{
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.maintxt-2 img{
+    filter: brightness(35%);
+    width: 100%;
+    height: 250px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    box-shadow: 2px 10px 15px rgba(0, 0, 0, 0.669);
+    position: absolute;
+    object-fit: cover;
+}
+
+
+.maintxt-2 h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    filter: brightness(80%);
+    font-family: "French Script MT";
+    font-size: 150px;
+}
+
+
+.maintxt-3{
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maintxt-3 img{
+    filter: brightness(35%);
+    width: 100%;
+    height: 250px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    box-shadow: 2px 10px 15px rgba(0, 0, 0, 0.669);
+    position: absolute;
+    object-fit: cover;
+    
+}
+
+.maintxt-3 h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    filter: brightness(80%);
+    font-family: "French Script MT";
+    font-size: 150px;
+}
+
+@media(max-width:768px){
+    .maintxt-3 h3{
+        font-size: 100px;
+    }
+}
+
+.eo-sub-head-1 h4{
+    color: #062422;
+}
+
+.eo-sub-head-2 h4{
+    color: #062422;
+}
+
+.eo-sub-head-3 h4{
+    color: #062422;
+}
+
+
+.timer{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #F7B801;
+    color: #062422;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+@media(max-width:768px){
+    .timer{
+        width: auto;
+        text-align: center;
+        font-size: 60px;
+        background-color: #F7B801;
+        color: #062422;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+}
+
+.rate{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+#price{
+    width: 45%;
+    color: #062422;
+    background-color: #F7B801;
+    text-align: center;
+    /* border-radius: 50px; */
+}
+
+#price:hover{
+    transform: scale(1.5);
+}
+
+#price-1{
+    width: 65%;
+    color: #062422;
+    background-color: #F7B801;
+    text-align: center;
+    /* border-radius: 50px; */
+}
+
+#price-1:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+#price-2{
+    width: 75%;
+    color: #062422;
+    background-color: #F7B801;
+    text-align: center;
+    /* border-radius: 50px; */
+}
+
+#price-2:hover{
+    transform: scale(1.5);
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* overflow: hidden; */
+  }
+  
+  .modal-content {
+    background-color: #F7B801;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #F7B801;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #062422;
+}
+
+.close:hover{
+    color: red;
+}
+
+#text-1{
+    padding-top: 20px;
+}
+
+#text-1 h4{
+    font-family: "Gabriola";
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+#text-1 h6{
+    padding: 10px;
+    background-color: #062422;
+    color: #F7B801;
+    width: 100px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#text-1 p{
+    font-family: "Franklin Gothic Book";
+    font-size: 16px;
+}
+
+@media(max-width:768px){
+    #modal-img-1{
+        width: 100%;
+    }
+}
+  
+
+
+#in-1{
+    padding-top: 30px;
+}
+
+#in-1 h5{
+    font-size: 15px;
+}
+
+#in-1 p{
+    font-family: "Folio Lt BT";
+
+}
+
+
+.gallery{
+ 
+    background-color: #062422;
+ 
+   
+}
+
+
+#gallery-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh;  */
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    
+    
+  }
+
+#gallery-heading h6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color:#F7B801;
+    letter-spacing: 1px;
+    font-size: 20px;
+    /* padding-bottom: 15px; */
+ 
+}
+
+#gallery-heading h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+   
+}
+  
+  @media (max-width: 768px) {
+    h6, h2 {
+      font-size: 18px; 
+    }
+  }
+  
+
+
+span{
+    color: #F7B801;
+}
+
+
+.pro{
+    margin-top: 35px;
+  }
+
+#pic-1{
+    width: 100%;
+    height: auto;
+    padding: 10px 15px 15px;
+    
+   
+}
+
+#pic-2{
+    width: 100%;
+    height: auto;
+    padding: 10px  15px 15px;
+    
+   
+}
+
+#pic-4{
+    width: 100%;
+    height: auto;
+    padding: 10px  15px 15px;
+    
+    
+}
+
+#pic-10{
+    width: 100%;
+    height: auto;
+    padding: 10px  15px 15px;
+    
+}
+
+#vid-1{
+    width: 100%;
+    height: auto;
+    padding: 10px  15px 15px;
+    
+}
+
+#pic-3{
+    width: 100%;
+    height: auto;
+    padding: 10px  15px 15px;
+
+}
+
+#vid-2{
+    width: 100%;
+    height: auto;
+    padding: 10px 15px 15px;
+    
+}
+
+#pic-5{
+    width: 100%;
+    height: auto;
+    padding: 10px 15px 15px;
+    
+}
+
+#pic-6{
+    width: 100%;
+    height: auto;
+    padding: 10px 15px 15px;
+    
+}
+
+#pic-7{
+    width: 100%;
+    height: auto;
+    padding: 10px 15px 15px;
+    
+}
+
+#pic-8{
+    width: 100%;
+    height: auto;
+    padding: 10px 15px 15px;
+    
+    
+}
+
+#pic-9{
+    width: 100%;
+    height: auto;
+    padding: 10px 15px 15px;
+    
+}
+
+
+.head-cu{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:white;
+    letter-spacing: 1px;
+ 
+}
+  
+
+
+.head-cu-2{
+    font-size: 70px;
+    text-align: center;
+  
+}
+
+
+#contact-form{
+    background-image: url('https://i.pinimg.com/564x/3e/f9/f5/3ef9f5348d4fd827324dc303b7ce68ae.jpg');
+    border: 1px solid #F7B801;
+    padding: 25px;
+    background-clip: border-box;
+}
+
+.form-control{
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: #F7B801;
+
+}
+
+.from{
+    border: 1px solid white;
+}
+
+
+#contactus{
+    width: 100%;
+    background-color: #062422;
+}
+
+#contact-form{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+label{
+    color: #F7B801;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: "Tw Cen MT";
+    font-size: 20px;
+}
+
+#submit-button{
+    border: 1px solid #F7B801;
+    margin-left: 25px;
+    background-color: #F7B801;
+    color: #062422;
+    
+}
+
+
+
+.endbar-4{
+    background-color: #F7B801;
+    color: #062422;
+}
+
+#spacebar-1{
+    border-left: 1px solid #062422;
+    width: 3%;
+    height: 3vh;
+    margin-left: 20px;
+    margin-top: 2px;
+    
+}
+
+
+#spacebar-2{
+    border-left: 1px solid #062422;
+    width: 3%;
+    height: 3vh;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+.endbar-6{
+    background-color: #F7B801;
+    color: #062422;
+    margin-top: 100px;
+    text-align: center;
+  
+}
+
+.endbar-5{
+    background-color: #F7B801;
+    color: #062422;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.det-1{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+.feedback-form{
+    background-color: #F7B801;
+    padding-bottom: 50px;
+}
+
+.h-e-a{
+    font-size: 65px;
+    font-family: "Gabriola";
+    color: #062422;
+}
+
+.cb-1{
+    background-color: #062422;
+    color: #F7B801;
+  
+
+}
+
+.cb-2{
+    background-color: #062422;
+    color: #F7B801;
+  
+    border-radius: 40px;
+
+}
+
+#submit-button-2{
+    border: 1px solid #F7B801;
+    
+    background-color: #F7B801;
+    color: #062422;
+    
+}
+
+.rating-container {
+    text-align: center;
+    /* margin: 20px; */
+}
+
+.rating-stars {
+    color: #F7B801;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.rating-textarea {
+    resize: none;
+}
+
+.ra-exp{
+    background-color: #062422;
+    color: #F7B801;
+    padding-top: 60px;
+    padding-bottom: 50px;
+   
+ 
+}
+
+
+.rating-container{
+    /* padding-top: 30px; */
+    letter-spacing: 0.5em;
+}
+
+.r-y-e{
+    /* padding-top: 65px; */
+    font-size: 65px;
+    font-family: "Gabriola";
+}
+
+.faqs-box {
+    background-color: #F7B801;
+
+}
+
+.fa-box{
+   
+    background-color: #F7B801;
+}
+
+.faqs-head h2{
+    color: #062422;
+    font-family: "Gabriola";
+    font-size: 65px;
+}
+
+
+
+.faq-item h4{
+    font-family: "Tw Cen MT";
+
+}
+
+@media(min-width:768px){
+    .faqs-parent{
+        margin-left: -80px;
+    }
+}
+
+
+#site-map{
+    background-color: #062422;
+    color: #F7B801;
+    margin-top: 30px;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    text-align: right;
+  }
+
+  .social-icons li {
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    color: #F7B801;
+    position: relative;
+    top: -48px;
+  }
+
+  .social-icons i {
+    font-size: 24px;
+  }
+
+ #sitemap a{
+    text-decoration: none;
+    color: #F7B801;
+    padding-top: 5px;
+    overflow-x: hidden;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ #sitemap h1{
+    font-family: "Gabriola";
+    font-weight: bold;
+ }
+
+ @media(max-width:768px){
+    #sitemap{
+        text-align: center;
+        margin-left: -120px;
+        overflow-x: hidden;
+    }
+    
+    #lastline{
+        text-align: center;
+        margin-left: 50px;
+    }
+ }
+
+ @media(max-width:768px){
+    #home{
+        overflow-x: hidden;
+    }
+
+    #about{
+        overflow-x: hidden;
+    }
+    
+    #contactus{
+        overflow-x: hidden;
+    }
+
+    #sitemap{
+        overflow-x: hidden;
+    }
+
+    #faqs{
+        overflow-x: hidden;
+    }
+
+    #products{
+        overflow-x: hidden;
+    }
+    
+    #cakes{
+        overflow-x: hidden;
+    }
+
+    #pastries{
+        overflow-x: hidden;
+    }
+
+    #BnC{
+        overflow-x: hidden;
+    }
+
+    #pies{
+        overflow-x: hidden;
+    }
+
+    #cookies{
+        overflow-x: hidden;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
